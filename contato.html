@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Pizzaria Carvalho</title>
+    <link rel="icon" href="./img/favicon-32x32.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Entre em Contato</h1> 
+        <nav>
+            <ul>
+                <li><a href="index.html">Pagina Inicial</a></li>
+                <li><a href="./apresentação/apresentação.html">Apresentação</a></li>
+                <li><a href="menu.html">cardapio</a></li>
+                <li><a href="bebidas.html">Bebidas</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>      
+    </header>
+    <main class="contato">
+        <img class="main-contato" src="./img/pizza-show.jpg" alt="pizza-contato" srcset="">
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Informações de Contato</legend>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone"><br><br>
+
+                <label for="assunto">Assunto:</label><br>
+                <select id="assunto" name="assunto" required>
+                    <option value="">Selecione...</option>
+                    <option value="pedido">Pedido</option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="outro">Outro</option>
+                </select><br><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="checkbox" id="newsletter" name="newsletter" value="sim">
+                <label for="newsletter">Quero receber novidades por e-mail</label><br><br>
+
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+    <footer class="rodape" id="contato">
+        <div class="rodape-div">
+        <!-- coluna 1 -->
+            <div class="rodape-div-1">
+                <div class="rodape-div-1-coluna">
+        <span>PIZZARIA CARVALHO</span>
+                </div>
+            </div>
+        <!-- coluna 2 -->
+            <div class="rodape-div-2">
+                <div class="rodape-div-2-coluna">
+    <span><b>SOBRE</b></span>
+    <p>email: pizzcarv@gmail.com</p>
+    <p>Telefone (61) 1234-8765</p>
+                </div>
+            </div>
+        <!-- coluna 3 -->
+                <div class="rodape-div-3">
+                    <div class="rodape-div-3-coluna">
+        <span><b>LINKS</b></span>
+        <p><a href="contato.html">Contato</a></p>
+        <p><a href="menu.html">Cardapio</a></p>
+        <p><a href="./apresentação/apresentação.html">Apresentação</a></p>
+                    </div>
+                </div>
+        <!-- coluna 4 -->
+                <div class="rodape-div-4">
+                    <div class="rodape-div-4-coluna">
+            <span><b>SUGESTÕES</b></span>
+            <p>Informações gerais contatar empresa</p>
+                    </div>
+                </div>
+
+        </div>
+            <p class="rodape-direitos">Copyright&copy; 2024</p>     
+    </footer>
+</body>
+</html>
